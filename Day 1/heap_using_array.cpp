@@ -23,10 +23,10 @@ class Heap{
             // increase the size of the heap
             size++;
             int index = size;
-            // inser the data in the least position of the array
+            // inser the data in the last position of the array
             arr[index] = data;
 
-            // place the new element to its correct position by comparint with its parent element
+            // place the new element to its correct position by comparing with its parent element
             while( index > 1){
                 // parent index
                 int parentIndex = index/2;
