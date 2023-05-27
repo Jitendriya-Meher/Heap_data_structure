@@ -86,6 +86,7 @@ vector<int> smallestRange( vector<vector<int> > arr){
             // while push the new element update the maxi
             maxi = max(maxi,arr[row][col+1]);
         }else{
+            // any of the row is traversed then stop
             break;
         }
     }
