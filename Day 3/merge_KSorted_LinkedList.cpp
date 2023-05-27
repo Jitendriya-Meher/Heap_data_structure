@@ -42,7 +42,7 @@ void print(node* &head){
 }
 
 
-// constum class for a contum comparetor for creating min heap
+// costum class for a costum comparetor for creating min heap
 class comp {
     public:
         bool operator()(node *a, node *b){
@@ -87,7 +87,7 @@ node* KSortList(vector<node*> list){
         }
     }
 
-    // retuen head->next , as head is a dumy node
+    // retuen head->next , as head is a dummy node
     return head->next;
 
 }

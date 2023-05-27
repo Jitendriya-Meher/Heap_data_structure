@@ -19,7 +19,7 @@ class info {
         }
 };
 
-// constum class for a contum comparetor for creating min heap
+// costum class for a costum comparetor for creating min heap
 class comp {
     public:
         bool operator()(info *a, info *b){
@@ -43,7 +43,7 @@ vector<int> smallestRange( vector<vector<int> > arr){
     mini=minAns=INT_MAX;
     maxi=maxAns=INT_MIN;
 
-    // firt push the first element of each row into the minheap
+    // first push the first element of each row into the minheap
     for( int i=0; i<totRow; i++){
         // create info class to store all information about the element
         info *temp = new info(arr[i][0],i,0);
